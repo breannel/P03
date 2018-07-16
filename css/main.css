@@ -12,7 +12,7 @@ BASIC ELEMENTS
 }
 
 body {
-	background-color: #f6f2ec;
+	/* background-color: #f6f2ec; */
 }
 
 .nav-container {
@@ -32,7 +32,6 @@ nav li {
 
 nav a:hover, nav a:focus, nav a:target {
   text-decoration: none;
-  background-color: #f6f2ec;
 }
 
 /* 

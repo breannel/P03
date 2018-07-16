@@ -1,0 +1,80 @@
+#color-swatch-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.color-swatch  {
+	flex: 10rem;
+	max-width: 10rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+.color-swatch .single-color:first-child {
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.color-swatch .single-color:last-child {
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+
+.single-color p {
+	text-align: center;
+	padding: 1em 0;
+	transition: padding-top 0.3s;
+}
+
+.single-color p:hover {
+	padding-top: 1.5rem;
+}
+
+
+.light-type {
+	color: white;
+}
+
+.dark-type {
+	color: gray;
+}
+
+.color-swatch .single-color p {
+	margin: 0;
+}
+
+#color-swatch-reds .single-color:nth-child(1) {
+	background-color: #9a2009;
+}
+
+#color-swatch-reds .single-color:nth-child(2) {
+	background-color: #be3115;
+}
+
+#color-swatch-reds .single-color:nth-child(3) {
+	background-color: #E54B4B;
+}
+
+#color-swatch-blues .single-color:nth-child(1) {
+	background-color: #0c4984;
+}
+
+#color-swatch-blues .single-color:nth-child(2) {
+	background-color: #1765b3;
+}
+
+#color-swatch-blues .single-color:nth-child(3) {
+	background-color: #04abfc;
+}
+
+#color-swatch-greys .single-color:nth-child(1) {
+	background-color: #101010;
+}
+
+#color-swatch-greys .single-color:nth-child(2) {
+	background-color: #222222;
+}
+
+#color-swatch-greys .single-color:nth-child(3) {
+	background-color: #f6f2ec;
+	border: solid grey 1px;
+}
