@@ -1,0 +1,368 @@
+/********   HEADER START  ********/
+
+#header-topedge1 {
+	height: 10px;
+	background-color: rgb(138, 38, 19);
+	z-index: 800;
+}
+
+#header-topedge2 {
+	height: 10px;
+	background-color: rgb(174, 50, 34);
+	z-index: 800;
+}
+
+.sticky-nav {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 800;
+}
+
+.in-style-guide {
+	z-index: 700;
+}
+
+#sticky-nav-containter, .sticky-nav-containter {
+	background-color: #101010;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px; 
+	/*background-color: #E54B4B;*/
+	height: 110px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+#sticky-nav-containter p, .sticky-nav-containter  p {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #f6f2ec;
+	/* font-size: 1.2em; */
+	
+}
+
+/* #top {
+	display: block;
+	margin: auto;
+} */
+
+#sticky-nav-containter img, .sticky-nav-containter img{
+	max-height: 110px;
+	max-width: 300px;
+	width: auto;
+	height: auto;
+}
+
+#sticky-nav-containter .nav-logo, .sticky-nav-containter .nav-logo {
+	flex: 1 40%;
+}
+
+#sticky-nav-containter ul, .sticky-nav-containter ul{
+	flex: 1 100%;
+	display: flex;
+	/*justify-content: start;*/
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+}
+
+#sticky-nav-containter ul li, .sticky-nav-containter ul li{
+	text-decoration: none;
+	background: none;
+	/* color: #fff; */
+	text-align: center;
+	max-width: 150px;
+	padding: 0;
+	flex: 1 70%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#sticky-nav-containter ul li a, .sticky-nav-containter ul li a {
+	color:#f6f2ec;
+}
+
+/* a {
+	background-color: #c0392b;
+	color: #fff;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	border-radius: 2px;
+} */
+
+#sticky-nav-containter ul li a:hover, .sticky-nav-containter ul li a:hover{
+	color: #e54b4b;
+	text-decoration: none;
+	/* font-size: 1.1em; */
+}
+
+#sticky-nav-containter .navigation-hamburger, .sticky-nav-containter .navigation-hamburger {
+	flex: 1 20%;
+	align-self: flex-end;
+}
+
+.sticky-nav h1 {
+	display: none;
+}
+/********   HEADER END   ********/
+
+/********   FOOTER START   ********/
+
+#footer-bottomdge1 {
+	height: 10px;
+	background-color: rgb(138, 38, 19);
+}
+
+#footer-bottomedge2 {
+	height: 30px;
+	background-color: rgb(174, 50, 34);
+}
+
+#footer-bottomedge2 h2 {
+	color: #f6f2ec;
+	margin: 0;
+	padding: 3px 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+footer {
+	color: #f6f2ec;
+	background-color: #101010;
+	padding: 2rem;
+}
+
+/* footer h2{
+	color: rgb(174, 50, 34);
+	font-family: 'Lato';
+	font-weight: lighter;
+} */
+
+#footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#project-links {
+	flex: 1 30%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 0 0.5rem 0;
+}
+
+#project-links a {
+	text-decoration: none;
+	background-color: #101010;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #f6f2ec;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+#project-links a:hover {
+	color: #e54b4b;
+}
+
+#footer-contacts {
+	flex: 1 30%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 0 0.5rem 0;
+}
+
+#footer-contacts p {
+	padding: 0;
+}
+
+#footer-contacts p span {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#open-hours {
+	flex: 1 30%;
+	padding: 2rem 0 0.5rem 0;
+	color: #f6f2ec;
+}
+
+#open-hours table {
+	width: 100%;
+	text-align: left;
+}
+
+#open-hours table th {
+	display: none;
+}
+
+#open-hours table tr td {
+	padding: 0.5em;
+}
+
+#open-hours table tr:nth-child(odd) td:first-child {
+	width: 30%;
+	background-color: #101010;
+}
+
+#open-hours table tr:nth-child(even) td:first-child {
+	width: 30%;
+	background-color: #101010;
+}
+
+#open-hours table tr td:first-child + td {
+	width: 70%;
+}
+/***** Button FontAwesome *****/
+#footer-container button {
+	border: none;
+	background:none;
+	padding: 0;
+	cursor: pointer;
+}
+
+.fa-facebook-square{
+	color: #f6f2ec;
+}
+
+.fa-instagram {
+	color: #f6f2ec;
+}
+
+/********   FOOTER END   ********/
+
+/********   MEDIA QUERIES ********/
+/* @media (max-width: 59em){
+	
+	#top img {
+		max-width: 20rem;
+		width: 90%;
+	}
+	
+} */
+
+@media (max-width: 1180px) {
+	#sticky-nav-containter ul, .sticky-nav-containter ul {
+		display: none;
+	}
+}
+
+@media(max-width: 900px) {
+	/* should replace image here for smaller screen sizes */
+	#sticky-nav-containter img, .sticky-nav-containter img{
+		max-width: 200px;
+		padding-top: 10px;
+	}
+
+	/* make open hour go to the next row in flexbox */
+	#open-hours {
+		/* align-self: stretch; */
+		flex: 1 0 100%;
+	}
+
+	#open-hours table {
+		width: 60%;
+		text-align: left;
+	}
+
+	#open-hours table tr:nth-child(odd) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr:nth-child(even) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr td:first-child + td {
+		width: 60%;
+	}
+}
+
+@media(max-width: 600px) {
+	#footer-contacts {
+		/* align-self: stretch; */
+		flex: 1 0 100%;
+	}
+
+	#open-hours {
+		/* align-self: stretch; */
+		flex: 1 0 100%;
+	}
+
+	#open-hours table {
+		width: 100%;
+		text-align: left;
+	}
+
+	#open-hours table tr:nth-child(odd) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr:nth-child(even) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr td:first-child + td {
+		width: 60%;
+	}
+}
+
+@media(max-width: 450px) {
+	/* should replace image here for smaller screen sizes */
+	#sticky-nav-containter, .sticky-nav-containter{
+		padding-left: 10px;
+	}
+
+	#sticky-nav-containter img, .sticky-nav-containter img{
+		width: 150px;
+		margin-top: 10px;
+	}
+
+	#header-bottomedge2 h2 {
+		padding: 2px 4px 2px 6px;
+	}
+
+	footer {
+		padding: 0.3rem;
+	}
+
+	/* make open hour go to the next row in flexbox */
+	#open-hours {
+		/* align-self: stretch; */
+		flex: 1 0 100%;
+	}
+
+	#open-hours table {
+		width: 100%;
+		text-align: left;
+	}
+
+	#open-hours table tr:nth-child(odd) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr:nth-child(even) td:first-child {
+		width: 40%;
+		background-color: #101010;
+	}
+	
+	#open-hours table tr td:first-child + td {
+		width: 60%;
+	}
+}
+
+
