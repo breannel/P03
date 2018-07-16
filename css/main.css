@@ -12,7 +12,7 @@ BASIC ELEMENTS
 }
 
 body {
-	background-color: #f6f2ec;
+	/* background-color: #f6f2ec; */
 }
 
 .nav-container {
@@ -32,7 +32,6 @@ nav li {
 
 nav a:hover, nav a:focus, nav a:target {
   text-decoration: none;
-  background-color: #f6f2ec;
 }
 
 /* 
@@ -254,9 +253,7 @@ a:active, a:hover, a:focus {
 }
 
 h1 {
-  margin: 0;
-  font-size: 1.8em;
-  color: #f6f2ec;
+  font-size: 2.2em;
   font-family: 'mostra-nuova', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -279,7 +276,6 @@ section h1 {
 h2 {
   font-size: 1.8em;
   flex: 1;
-  color: #f6f2ec;
   font-family: 'mostra-nuova', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -430,100 +426,8 @@ figcaption {
     border-right-style: none;
   }
 
-  .product-filter .breadcrumb {
-    margin-top: 0;
-  }
-
 /* BREADCRUMB end */
 
-/* PRODUCT LISTING */
-
-/* Product Layout ----------------*/
- /* product listing adapted from Levin Mejia:  https://css-tricks.com/float-labels-css/  */
-
-.product-filter {
-	margin: 0 auto;
-	width: 70%;
-	max-width: 1240px;
-  padding: 0 6em;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.product-filter h2 {
-  /*visibility: hidden; */   
-  margin: 0;
-  padding: 0;
-  font-size: 0.7em;
-}
-
-select {
-  background-color: rgb(253, 252, 251);
-}
-
-.products {
-  margin: auto;
-  margin-bottom: 2em;
-	width: 90%;
-	max-width: 1240px;
-	padding: 0 6em;
-}
-
-.product-filter {
-  display: flex;
-  margin: auto;
-  width: 90%;
-  padding: 0 6em;
-  margin-bottom: 1em;
-}
-
-.sort {
-	display: flex;
-	align-self: flex-end;
-}
-
-.collection-sort {
- display: flex;
- flex: 1;
- flex-direction: column;
-}
-
-label {
-	color: #666;
-	font-size: 10px;
-	font-weight: 500;
-	line-height: 2em;
-	text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.products {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.product-card {
-	display: flex;
-	flex-direction: column;
-
-	padding: 2%;
-	flex: 1 16%;
-
-	background-color: rgb(253, 252, 251);
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.35);
-}
-
-.product-image img {
-	width: 100%;
-}
-
-.product-info {
-  margin: auto;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-/* PRODUCT LISTING end ----------------*/
 
 /* HEADER NAV BAR start---------------*/
 
@@ -532,6 +436,14 @@ nav {
 }
 
 /* HEADER NAV BAR start---------------*/
+
+
+
+/*
+  COMBINED ELEMENTS start -------------------
+*/
+
+/* See Header and Footer in header-footer.css */
 
 /* SECONDARY RED NAV BAR start---------------*/
 
@@ -563,9 +475,12 @@ nav {
 /* SECONDARY RED NAV BAR start---------------*/
 
 
+
 /*
-  COMBINED ELEMENTS start -------------------
+  COMBINED ELEMENTS end -------------------
 */
+
+
 
 
 /* 
@@ -604,10 +519,6 @@ MEDIA QUERY start ------------
 	.products {
 		padding: 0;
   }
-
-  /* .product-filter {
-    margin: 0;
-  } */
   
 	.product-filter {
 		padding: 0;
@@ -624,10 +535,6 @@ MEDIA QUERY start ------------
 }
 
 @media ( max-width: 480px ) {
-
-	/* h1 {
-		margin-bottom: 0.6em;
-	} */
 
 	.sort {
 		align-self: flex-start;
