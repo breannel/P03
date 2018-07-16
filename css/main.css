@@ -84,13 +84,14 @@ html {
 
 .button-cancel {
   display: inline-block;
-  color: #9a2009;
+  color: #E34F0C;
   font-size: 1em;
-  background-color: rgba(246, 242, 236, 0);
+  font-weight: bold;
+  background-color: rgba(227, 79, 12, 0.1);
   border-radius: 0.1em;
   text-decoration: none;
   border-radius: 2em;
-  border: 0.1em solid #9a2009;
+  border-bottom: 0.15em solid #E34F0C;
   margin: 0 1em 0.1em 0;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
@@ -101,19 +102,19 @@ html {
 
 .button-cancel:hover, .button-cancel:focus {
   color: #f6f2ec;
-  background-color: #9a2009;
+  background-color: rgb(227, 79, 12);
 }
 
 .button-submit {
   display: inline-block;
-  color: #0c4984;
+  color: #171B0A;
   font-size: 1em;
-  background-color: rgba(246, 242, 236, 0);
-  border-radius: 0.1em;
-  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(19, 19, 19, 0.1);
   border-radius: 2em;
+  text-decoration: none;
   margin: 0 1em 0.1em 0;
-  border: 0.1em solid #0c4984;
+  border-bottom: 0.15em solid #171B0A;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
@@ -123,8 +124,7 @@ html {
 
 .button-submit:hover, .button-submit:focus {
   color: #f6f2ec;
-  background-color: #0c4984;
-  border-color: #0c4984;
+  background-color: #171B0A;
 }
 
 /* 
@@ -254,7 +254,7 @@ a:active, a:hover, a:focus {
 
 h1 {
   font-size: 2.2em;
-  font-family: 'mostra-nuova', sans-serif;
+  font-family: 'karmina', sans-serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -276,7 +276,7 @@ section h1 {
 h2 {
   font-size: 1.8em;
   flex: 1;
-  font-family: 'mostra-nuova', sans-serif;
+  font-family: 'karmina', sans-serif;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 1em;
@@ -284,7 +284,7 @@ h2 {
 
 section h2 {
   color:  #222;
-  font-family: 'mostra-nuova', sans-serif;
+  font-family: 'karmina', sans-serif;
   font-style: normal;
   font-weight: 700;
 }
