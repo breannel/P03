@@ -43,38 +43,38 @@
 }
 
 #color-swatch-reds .single-color:nth-child(1) {
-	background-color: #9a2009;
+	background-color: #E34F0C;
 }
 
 #color-swatch-reds .single-color:nth-child(2) {
-	background-color: #be3115;
+	background-color: #F7A70C;
 }
 
 #color-swatch-reds .single-color:nth-child(3) {
-	background-color: #E54B4B;
+	background-color: #FDC361;
 }
 
 #color-swatch-blues .single-color:nth-child(1) {
-	background-color: #0c4984;
+	background-color: #2D6A63;
 }
 
 #color-swatch-blues .single-color:nth-child(2) {
-	background-color: #1765b3;
+	background-color: #59A3A4;
 }
 
 #color-swatch-blues .single-color:nth-child(3) {
-	background-color: #04abfc;
+	background-color: #5AB28A;
 }
 
 #color-swatch-greys .single-color:nth-child(1) {
-	background-color: #101010;
+	background-color: #171B0A;
 }
 
 #color-swatch-greys .single-color:nth-child(2) {
-	background-color: #222222;
+	background-color: #444444;
 }
 
 #color-swatch-greys .single-color:nth-child(3) {
-	background-color: #f6f2ec;
+	background-color: rgb(248, 248, 248);
 	border: solid grey 1px;
 }
