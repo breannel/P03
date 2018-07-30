@@ -12,7 +12,7 @@
 }
 
 #sticky-nav-containter, .sticky-nav-containter {
-	background-color: #FFF;
+	background-color: #111;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 20px; 
@@ -22,13 +22,25 @@
 	flex-wrap: nowrap;
 }
 
-#sticky-nav-containter p, .sticky-nav-containter  p {
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	/* color: #f6f2ec; */
-	/* font-size: 1.2em; */
-	
-}
+#sticky-nav-containter h2, .sticky-nav-containter h2 {
+	font-size: 2em;
+	flex: 1;
+	font-family: voltage, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	margin-bottom: 1em;
+	margin-left: 1em;
+  
+	color:  #fff8f5 ;
+  
+	text-shadow: 0 0 10px rgba(255,255,255,1) ;
+	text-shadow: 0 0 20px rgba(255,255,255,1) ;
+	text-shadow: 0 0 30px rgba(255,255,255,1) ;
+	text-shadow: 0 0 100px #ff7333 ;
+	text-shadow: 0 0 80px #ff5100 ;
+	text-shadow: 0 0 70px #ff5100 ;
+	text-shadow: 0 0 40px #ff5100 ;
+  }
 
 #sticky-nav-containter img, .sticky-nav-containter img{
 	max-height: 110px;
@@ -42,7 +54,7 @@
 }
 
 #sticky-nav-containter ul, .sticky-nav-containter ul{
-	flex: 1 100%;
+	flex: 1 10%;
 	display: flex;
 	/*justify-content: start;*/
 	flex-wrap: wrap;
@@ -61,11 +73,10 @@
 	padding: 0;
 	flex: 1 70%;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
 }
 
 #sticky-nav-containter ul li a, .sticky-nav-containter ul li a {
-	color:#000;
+	color:  #fff8f5 ;
 }
 
 /* a {
@@ -93,6 +104,7 @@
 .sticky-nav h1 {
 	display: none;
 }
+
 /********   HEADER END   ********/
 
 /********   FOOTER START   ********/
@@ -235,6 +247,10 @@ footer {
 		padding-top: 10px;
 	}
 
+	.sticky-nav a {
+		line-height: 2em;
+	}
+
 	/* make open hour go to the next row in flexbox */
 	#open-hours {
 		/* align-self: stretch; */
@@ -259,6 +275,16 @@ footer {
 	#open-hours table tr td:first-child + td {
 		width: 60%;
 	}
+
+}
+
+@media(max-width: 760px) {
+	.sticky-nav h2 {
+		line-height: 1em;
+		padding-right: 1em;
+		margin-top: 0.6em;
+	}
+
 }
 
 @media(max-width: 600px) {
@@ -304,8 +330,10 @@ footer {
 	}
 
 	#header-bottomedge2 h2 {
-		padding: 2px 4px 2px 6px;
+		padding: 2px 4px 2px 6px;		
 	}
+
+
 
 	footer {
 		padding: 0.3rem;

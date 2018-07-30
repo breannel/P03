@@ -3,9 +3,9 @@
 	flex-wrap: wrap;
 }
 
-.flex-main section, .breadcrumb {
-	/* flex: 1 1 auto; */
-	margin: 0 10%;
+.flex-main section {
+	flex: 1 1 auto;
+	margin: 0 14%;
 }
 
 @media(max-width: 750px) {
