@@ -1,11 +1,26 @@
 #about-us {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/michaelsThumb.png") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	flex: 100%;
 	margin: -2%;
+}
+
+.michaels {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/michaelsThumb.png") no-repeat center center fixed; 
+}
+
+.vice {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/viceThumb.png") no-repeat center center fixed; 
+}
+
+.dossier {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/dossierThumb.png") no-repeat center center fixed; 
+}
+
+.about {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hongKongCafe_eastPender.jpg") no-repeat center center fixed; 
 }
 
 #about-us div {
@@ -15,7 +30,7 @@
 }
 
 #about-us h2 {
-	font-size: 2em;
+	font-size: 2.4em;
 	padding: 1rem 2rem;
 	color:  #f6f2ec;
 }
@@ -39,7 +54,6 @@
 }
 
 section h3 {
-	font-size: 1.15em;
 	margin-top: 2em;
 }
 

@@ -30,17 +30,67 @@
 	font-weight: 300;
 	margin-bottom: 1em;
 	margin-left: 1em;
-  
-	color:  #fff8f5 ;
+	color:  #f6fdff ;
+  }
+
+  .defaultPage {  
+	text-shadow: 0 0 10px rgba(255,255,255,1) ;
+	text-shadow: 0 0 20px rgba(255,255,255,1) ;
+	text-shadow: 0 0 30px rgba(255,255,255,1) ;
+	text-shadow: 0 0 100px #1fd2ff ;
+	text-shadow: 0 0 80px #1fd2ff ;
+	text-shadow: 0 0 70px #1fd2ff;
+	text-shadow: 0 0 40px #1fd2ff ;
+  }
+
+  .michaelsPageLogo h2 {
+	color:  #fff6f8 ;
   
 	text-shadow: 0 0 10px rgba(255,255,255,1) ;
 	text-shadow: 0 0 20px rgba(255,255,255,1) ;
 	text-shadow: 0 0 30px rgba(255,255,255,1) ;
-	text-shadow: 0 0 100px #ff7333 ;
-	text-shadow: 0 0 80px #ff5100 ;
-	text-shadow: 0 0 70px #ff5100 ;
-	text-shadow: 0 0 40px #ff5100 ;
+	text-shadow: 0 0 100px #ff6b90 ;
+	text-shadow: 0 0 80px #ff6b90 ;
+	text-shadow: 0 0 70px #ff6b90 ;
+	text-shadow: 0 0 40px #ff6b90;
   }
+
+  .vicePageLogo h2 {
+	color:  #fffef6;
+  
+	text-shadow: 0 0 10px rgba(255,255,255,1) ;
+	text-shadow: 0 0 20px rgba(255,255,255,1) ;
+	text-shadow: 0 0 30px rgba(255,255,255,1) ;
+	text-shadow: 0 0 100px #ffef15 ;
+	text-shadow: 0 0 80px #ffef15;
+	text-shadow: 0 0 70px #ffef15 ;
+	text-shadow: 0 0 40px #ffef15 ;
+  }
+
+  .dossierPageLogo h2 {
+	color:  #f9f6ff ;
+  
+	text-shadow: 0 0 10px rgba(255,255,255,1) ;
+	text-shadow: 0 0 20px rgba(255,255,255,1) ;
+	text-shadow: 0 0 30px rgba(255,255,255,1) ;
+	text-shadow: 0 0 100px #8235ff ;
+	text-shadow: 0 0 80px #8235ff ;
+	text-shadow: 0 0 70px #8235ff;
+	text-shadow: 0 0 40px #8235ff ;
+  }
+
+  .vmfPageLogo h2 {
+	color:  #f6fdff ;
+  
+	text-shadow: 0 0 10px rgba(255,255,255,1) ;
+	text-shadow: 0 0 20px rgba(255,255,255,1) ;
+	text-shadow: 0 0 30px rgba(255,255,255,1) ;
+	text-shadow: 0 0 100px #1fd2ff ;
+	text-shadow: 0 0 80px #1fd2ff ;
+	text-shadow: 0 0 70px #1fd2ff;
+	text-shadow: 0 0 40px #1fd2ff ;
+  }
+  
 
 #sticky-nav-containter img, .sticky-nav-containter img{
 	max-height: 110px;

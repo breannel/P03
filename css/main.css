@@ -87,11 +87,8 @@ html {
   color: #E34F0C;
   font-size: 0.9em;
   font-weight: bold;
-  background-color: rgba(227, 79, 12, 0.1);
-  border-radius: 0.1em;
+  background-color: rgba(227, 79, 12, 0.2);
   text-decoration: none;
-  border-radius: 2em;
-  border-bottom: 0.15em solid #E34F0C;
   margin: 0 1em 0.1em 0;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
@@ -110,11 +107,9 @@ html {
   color: #171B0A;
   font-size: 0.9em;
   font-weight: bold;
-  background-color: rgba(19, 19, 19, 0.1);
-  border-radius: 2em;
+  background-color: rgba(19, 19, 19, 0.2);
   text-decoration: none;
   margin: 0 1em 0.1em 0;
-  border-bottom: 0.15em solid #171B0A;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
@@ -266,13 +261,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   margin-bottom: 1em;
-}
-
-section h2 {
   color:  #222;
-  font-family: 'karmina', sans-serif;
-  font-style: normal;
-  font-weight: 700;
 }
 
 .styleguide section{
@@ -301,10 +290,28 @@ section h2 {
 } */
 
 h3 {
-  color: #222;
-  font-size: 1em;
+  font-family: 'karmina', sans-serif;
+  font-style: normal;
   font-weight: 700;
+  color: #222;
+  font-size: 2.4em;
   padding-bottom: 0.5em;
+}
+
+.michaelsPage h3{
+  color: rgb(255, 93, 128);
+}
+
+.vmfPage h3{
+  color: rgb(38, 168, 255);
+}
+
+.dossierPage h3{
+  color: rgb(129, 11, 184);
+}
+
+.vicePage h3{
+  color: #FFD700;
 }
 
 h4 {
@@ -342,9 +349,9 @@ TYPOGRAPHY end ------------------
 
 .project-card {
   display: flex;
+  margin: 0.5em;
   padding-bottom: 1em;
   flex-direction: column;
-
 	flex: 1 35%;
 
 	background-color: rgb(253, 252, 251);
@@ -358,6 +365,12 @@ TYPOGRAPHY end ------------------
 .project-info {
   text-align: center;
 }
+
+.projects h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
 
 /* PROJECT SECTION end*/
 
