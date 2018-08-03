@@ -55,7 +55,33 @@
 
 section h3 {
 	margin-top: 2em;
-}
+} 
+
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 100%;
+  }
+
+  .child {
+	flex-basis: 50%;
+  }
+
+  .child p, h4, ul {
+	margin: 0 19%;
+	color: #333;
+	font-size: 1em;
+	font-weight: 400;
+  }
+
+  .child em {
+	font-weight: 700;
+  }
+
+  .child h3{
+	  margin-top: 1em;
+  }
 
 @media (max-width: 50rem) {
 	
@@ -75,4 +101,8 @@ section h3 {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+
+	.child {
+		flex-basis: 100%;
+	  }
 }
