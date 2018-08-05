@@ -33,6 +33,15 @@
 	color:  #f6fdff ;
   }
 
+a {
+	text-decoration: none;
+	transition: color 0.5s;
+  }
+
+  a:hover, a:focus, a:active {
+	border-style: solid none; 
+  }
+
   .defaultPage {  
 	text-shadow: 0 0 10px rgba(255,255,255,1) ;
 	text-shadow: 0 0 20px rgba(255,255,255,1) ;
@@ -41,6 +50,18 @@
 	text-shadow: 0 0 80px #1fd2ff ;
 	text-shadow: 0 0 70px #1fd2ff;
 	text-shadow: 0 0 40px #1fd2ff ;
+  }
+
+  section a {
+	color: #ffd92e;
+	transition: color 0.5s;
+	font-size: 700;
+  }
+  
+ section a:active, section a:hover, section a:focus {
+	background-color: rgba(255, 243, 177, 0.774);
+	color: #000;
+	text-decoration: none;
   }
 
   .michaelsPageLogo h2 {

@@ -40,7 +40,7 @@
 	color: white;
 }
 
-.flex-main section {
+.flex-main section, iframe {
 	margin: 4% 8%;
 }
 
@@ -77,6 +77,8 @@ section h3 {
 
   .child em {
 	font-weight: 700;
+	font-style: normal;
+	
   }
 
   .child h3{

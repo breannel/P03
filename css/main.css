@@ -236,17 +236,6 @@ ul ol {
   padding: 0 1em;
 }
 
-a {
-  color: rgb(190, 49, 21);
-  transition: color 0.5s;
-  text-decoration: none;
-}
-
-a:active, a:hover, a:focus {
-  color: rgb(23, 101, 179);
-  text-decoration: none;
-}
-
 h1 {
   font-size: 2.2em;
   font-family: 'karmina', sans-serif;
