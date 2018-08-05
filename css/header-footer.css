@@ -23,13 +23,14 @@
 }
 
 #sticky-nav-containter h2, .sticky-nav-containter h2 {
-	font-size: 2em;
+	font-size: 4em;
+	line-height: 0em;
 	flex: 1;
 	font-family: voltage, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	margin-bottom: 1em;
-	margin-left: 1em;
+	margin-left: 0.2em;
 	color:  #f6fdff ;
   }
 
@@ -125,7 +126,7 @@ a {
 }
 
 #sticky-nav-containter ul, .sticky-nav-containter ul{
-	flex: 1 10%;
+	flex: 1 9%;
 	display: flex;
 	/*justify-content: start;*/
 	flex-wrap: wrap;
@@ -141,7 +142,7 @@ a {
 	color: #000;
 	text-align: center;
 	max-width: 150px;
-	padding: 0;
+	padding: 0.2em;
 	flex: 1 70%;
 	font-family: 'Lato', sans-serif;
 }
@@ -168,7 +169,7 @@ a {
 }
 
 #sticky-nav-containter .navigation-hamburger, .sticky-nav-containter .navigation-hamburger {
-	flex: 1 20%;
+	flex: 1 25%;
 	align-self: flex-end;
 }
 
@@ -241,38 +242,6 @@ footer {
 	padding-right: 3px;
 }
 
-#open-hours {
-	flex: 1 30%;
-	padding: 2rem 0 0.5rem 0;
-	/* color: #f6f2ec; */
-}
-
-#open-hours table {
-	width: 100%;
-	text-align: left;
-}
-
-#open-hours table th {
-	display: none;
-}
-
-#open-hours table tr td {
-	padding: 0.5em;
-}
-
-#open-hours table tr:nth-child(odd) td:first-child {
-	width: 30%;
-	/* background-color: #101010; */
-}
-
-#open-hours table tr:nth-child(even) td:first-child {
-	width: 30%;
-	/* background-color: #101010; */
-}
-
-#open-hours table tr td:first-child + td {
-	width: 70%;
-}
 /***** Button FontAwesome *****/
 #footer-container button {
 	border: none;
@@ -288,20 +257,6 @@ footer {
 /********   FOOTER END   ********/
 
 /********   MEDIA QUERIES ********/
-/* @media (max-width: 59em){
-	
-	#top img {
-		max-width: 20rem;
-		width: 90%;
-	}
-	
-} */
-
-/* @media (max-width: 1180px) {
-	#sticky-nav-containter ul, .sticky-nav-containter ul {
-		display: none;
-	}
-} */
 
 @media(max-width: 900px) {
 	/* should replace image here for smaller screen sizes */
@@ -310,42 +265,25 @@ footer {
 		padding-top: 10px;
 	}
 
-	.sticky-nav a {
-		line-height: 2em;
+	#sticky-nav-containter h2, .sticky-nav-containter h2 {
+		font-size: 2em;
+		line-height: 1.5em;
+		margin-left: 1em;
 	}
 
-	/* make open hour go to the next row in flexbox */
-	#open-hours {
-		/* align-self: stretch; */
-		flex: 1 0 100%;
-	}
-
-	#open-hours table {
-		width: 60%;
-		text-align: left;
-	}
-
-	#open-hours table tr:nth-child(odd) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
-	}
-	
-	#open-hours table tr:nth-child(even) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
-	}
-	
-	#open-hours table tr td:first-child + td {
-		width: 60%;
+	#sticky-nav-containter ul, .sticky-nav-containter ul{
+		flex: 1 30%;
 	}
 
 }
 
 @media(max-width: 760px) {
-	.sticky-nav h2 {
-		line-height: 1em;
-		padding-right: 1em;
-		margin-top: 0.6em;
+	#sticky-nav-containter h2, .sticky-nav-containter h2 {
+		margin-left: 0.5em;
+	}
+
+	#sticky-nav-containter ul, .sticky-nav-containter ul{
+		flex: 1 50%;
 	}
 
 }
@@ -356,29 +294,20 @@ footer {
 		flex: 1 0 100%;
 	}
 
-	#open-hours {
-		/* align-self: stretch; */
-		flex: 1 0 100%;
+	#sticky-nav-containter h2, .sticky-nav-containter h2 {
+		line-height:1em;
 	}
 
-	#open-hours table {
-		width: 100%;
-		text-align: left;
+	#sticky-nav-containter ul, .sticky-nav-containter ul{
+		flex: 1 5%;
+		margin-top: 1em;
 	}
 
-	#open-hours table tr:nth-child(odd) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
+	#sticky-nav-containter ul li, .sticky-nav-containter ul li{
+		text-align: right;
+		padding-right: 1em;
 	}
-	
-	#open-hours table tr:nth-child(even) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
-	}
-	
-	#open-hours table tr td:first-child + td {
-		width: 60%;
-	}
+
 }
 
 @media(max-width: 450px) {
@@ -396,36 +325,10 @@ footer {
 		padding: 2px 4px 2px 6px;		
 	}
 
-
-
 	footer {
 		padding: 0.3rem;
 	}
 
-	/* make open hour go to the next row in flexbox */
-	#open-hours {
-		/* align-self: stretch; */
-		flex: 1 0 100%;
-	}
-
-	#open-hours table {
-		width: 100%;
-		text-align: left;
-	}
-
-	#open-hours table tr:nth-child(odd) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
-	}
-	
-	#open-hours table tr:nth-child(even) td:first-child {
-		width: 40%;
-		/* background-color: #101010; */
-	}
-	
-	#open-hours table tr td:first-child + td {
-		width: 60%;
-	}
 }
 
 

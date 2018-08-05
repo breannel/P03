@@ -511,14 +511,6 @@ MEDIA QUERY start ------------
 
 }
 
-@media ( max-width: 480px ) {
-
-	.sort {
-		align-self: flex-start;
-  }
-
-}
-
 @media (max-width: 56.25em) {
   .page-nav {
     display: none;
