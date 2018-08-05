@@ -11,10 +11,6 @@ BASIC ELEMENTS
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-	/* background-color: #f6f2ec; */
-}
-
 .nav-container {
   z-index: 999;
 }
@@ -338,9 +334,9 @@ TYPOGRAPHY end ------------------
 
 .project-card {
   display: flex;
-  margin: 0.5em;
-  padding-bottom: 1em;
   flex-direction: column;
+
+  margin: 1%;
 	flex: 1 35%;
 
 	background-color: rgb(253, 252, 251);
@@ -352,6 +348,8 @@ TYPOGRAPHY end ------------------
 }
 
 .project-info {
+  margin: auto;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -481,7 +479,7 @@ MEDIA QUERY start ------------
   h1 {font-size: 2.0em;}
 
 	.project-card {
-		flex: 1 21%;
+		flex: 1 46%;
   }
   
   section:first-child  {
@@ -490,7 +488,7 @@ MEDIA QUERY start ------------
 
 	.projects .project-card:first-child,
 	.projects .project-card:nth-child(2) {
-		flex: 2 46%;
+		flex: 2 70%;
 	}
 
 }
@@ -508,7 +506,7 @@ MEDIA QUERY start ------------
   }
 
 	.project-card {
-		flex: 1 46%;
+		flex: 1 70%;
 	}
 
 }
@@ -517,10 +515,6 @@ MEDIA QUERY start ------------
 
 	.sort {
 		align-self: flex-start;
-  }
-  
-  .project-filter {
-    display: block;
   }
 
 }

@@ -225,10 +225,6 @@ footer {
 	text-transform: uppercase;
 }
 
-#project-links a:hover {
-	/* color: #e54b4b; */
-}
-
 #footer-contacts {
 	flex: 1 30%;
 	display: flex;
@@ -285,12 +281,8 @@ footer {
 	cursor: pointer;
 }
 
-.fa-facebook-square{
-	/* color: #f6f2ec; */
-}
-
-.fa-instagram {
-	/* color: #f6f2ec; */
+.fa-facebook-square, .fa-instagram{
+	color: #000000;
 }
 
 /********   FOOTER END   ********/

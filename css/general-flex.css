@@ -12,4 +12,9 @@
 	.flex-main section {
 		margin: 0 1%;
 	}
+
+	#hero-section {
+		margin-left: 2%;
+		margin-right: 2%; 
+	}
 }
