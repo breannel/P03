@@ -44,23 +44,24 @@ a {
   }
 
   .defaultPage {  
+	color:  #fffef6;
+  
 	text-shadow: 0 0 10px rgba(255,255,255,1) ;
 	text-shadow: 0 0 20px rgba(255,255,255,1) ;
 	text-shadow: 0 0 30px rgba(255,255,255,1) ;
-	text-shadow: 0 0 100px #1fd2ff ;
-	text-shadow: 0 0 80px #1fd2ff ;
-	text-shadow: 0 0 70px #1fd2ff;
-	text-shadow: 0 0 40px #1fd2ff ;
+	text-shadow: 0 0 100px #ffef15 ;
+	text-shadow: 0 0 80px #ffef15;
+	text-shadow: 0 0 70px #ffef15 ;
+	text-shadow: 0 0 40px #ffef15 ;
   }
 
-  section a {
+ section a {
 	color: #ffd92e;
 	transition: color 0.5s;
-	font-size: 700;
+	font-weight: 700;
   }
   
  section a:active, section a:hover, section a:focus {
-	background-color: rgba(255, 243, 177, 0.774);
 	color: #000;
 	text-decoration: none;
   }
@@ -77,6 +78,17 @@ a {
 	text-shadow: 0 0 40px #ff6b90;
   }
 
+  .michaelsPage section a, .michaelsPage section em {
+	color: #ff6b90;
+	font-weight: 700;
+  }
+  
+  .michaelsPage section a:active, .michaelsPage section a:hover, .michaelsPage section a:focus {
+	background-color: #ffa2b9;
+	color: #000;
+	text-decoration: none;
+  }
+
   .vicePageLogo h2 {
 	color:  #fffef6;
   
@@ -87,6 +99,12 @@ a {
 	text-shadow: 0 0 80px #ffef15;
 	text-shadow: 0 0 70px #ffef15 ;
 	text-shadow: 0 0 40px #ffef15 ;
+  }
+
+  section a:active, section a:hover, section a:focus {
+	background-color: #fff89b;
+	color: #000;
+	text-decoration: none;
   }
 
   .dossierPageLogo h2 {
@@ -101,7 +119,18 @@ a {
 	text-shadow: 0 0 40px #8235ff ;
   }
 
-  .vmfPageLogo h2 {
+  .dossierPage section a, .dossierPage section em {
+	color: #8235ff;
+	font-weight: 700;
+  }
+  
+   .dossierPage section a:active,  .dossierPage section a:hover, .dossierPage section a:focus {
+	background-color: #c9a7ff;
+	color: #000;
+	text-decoration: none;
+  }
+
+  .vmfPage h2 {
 	color:  #f6fdff ;
   
 	text-shadow: 0 0 10px rgba(255,255,255,1) ;
@@ -111,6 +140,17 @@ a {
 	text-shadow: 0 0 80px #1fd2ff ;
 	text-shadow: 0 0 70px #1fd2ff;
 	text-shadow: 0 0 40px #1fd2ff ;
+  }
+
+  .vmfPage section a, .vmfPage section em {
+	color: #0ab4df;
+	font-weight: 700;
+  }
+  
+  .vmfPage section a:active, .vmfPage section a:hover, .vmfPage section a:focus {
+	background-color: #9ee6f8;
+	color: #000;
+	text-decoration: none;
   }
   
 
@@ -128,7 +168,6 @@ a {
 #sticky-nav-containter ul, .sticky-nav-containter ul{
 	flex: 1 9%;
 	display: flex;
-	/*justify-content: start;*/
 	flex-wrap: wrap;
 	align-content: center;
 	align-items: center;
@@ -151,21 +190,8 @@ a {
 	color:  #fff8f5 ;
 }
 
-/* a {
-	background-color: #c0392b;
-	color: #fff;
-	text-align: center;
-	width: 200px;
-	height: 50px;
-	line-height: 50px;
-	text-decoration: none;
-	border-radius: 2px;
-} */
-
 #sticky-nav-containter ul li a:hover, .sticky-nav-containter ul li a:hover{
-	/* color: #e54b4b; */
 	text-decoration: none;
-	/* font-size: 1.1em; */
 }
 
 #sticky-nav-containter .navigation-hamburger, .sticky-nav-containter .navigation-hamburger {
@@ -182,7 +208,7 @@ a {
 /********   FOOTER START   ********/
 
 #footer-bottomedge2 h2 {
-	/* color: #f6f2ec; */
+	color: #000000;
 	margin: 0;
 	padding: 3px 10px;
 	font-family: 'Lato', sans-serif;
@@ -217,11 +243,9 @@ footer {
 
 #project-links a {
 	text-decoration: none;
-	/* background-color: #101010; */
 	text-align: left;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	/* color: #f6f2ec; */
 	padding: 1em;
 	text-transform: uppercase;
 }

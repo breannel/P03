@@ -79,6 +79,7 @@ html {
 /* Styling for the navigation button */
 
 .button-cancel {
+  border-style: none;
   display: inline-block;
   color: #E34F0C;
   font-size: 0.9em;
@@ -95,10 +96,12 @@ html {
 
 .button-cancel:hover, .button-cancel:focus {
   color: #f6f2ec;
+  border-style: none;
   background-color: rgb(227, 79, 12);
 }
 
 .button-submit {
+  border-style: none;
   display: inline-block;
   color: #171B0A;
   font-size: 0.9em;
@@ -115,6 +118,7 @@ html {
 
 .button-submit:hover, .button-submit:focus {
   color: #f6f2ec;
+  border-style: none;
   background-color: #171B0A;
 }
 

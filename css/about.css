@@ -68,7 +68,7 @@ section h3 {
 	flex-basis: 50%;
   }
 
-  .child p, h4, ul {
+  .child p, .child h4, .child ul {
 	margin: 0 19%;
 	color: #333;
 	font-size: 1em;
@@ -78,7 +78,7 @@ section h3 {
   .child em {
 	font-weight: 700;
 	font-style: normal;
-	
+
   }
 
   .child h3{
