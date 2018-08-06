@@ -1,0 +1,54 @@
+a {
+	text-decoration: none;
+	transition: color 0.5s;
+  }
+
+  a:hover, a:focus, a:active {
+    border-style: solid none;
+    cursor: pointer; 
+  }
+
+ .vicePage section a, .vicePage section em {
+	color: #ffd414;
+	transition: color 0.5s;
+	font-weight: 700;
+  }
+  
+  .vicePage section a:active,  .vicePage section a:hover,  .vicePage section a:focus {
+	background-color: #fff89b;
+	color: #000;
+	text-decoration: none;
+  }
+
+  .michaelsPage section a, .michaelsPage section em {
+	color: #ff6b90;
+	font-weight: 700;
+  }
+  
+  .michaelsPage section a:active, .michaelsPage section a:hover, .michaelsPage section a:focus {
+	background-color: #ffa2b9;
+	color: #000;
+	text-decoration: none;
+  }
+
+  .dossierPage section a, .dossierPage section em {
+	color: #8235ff;
+	font-weight: 700;
+  }
+  
+   .dossierPage section a:active,  .dossierPage section a:hover, .dossierPage section a:focus {
+	background-color: #c9a7ff;
+	color: #000;
+	text-decoration: none;
+  }
+
+  .vmfPage section a, .vmfPage section em {
+	color: #0ab4df;
+	font-weight: 700;
+  }
+  
+  .vmfPage section a:active, .vmfPage section a:hover, .vmfPage section a:focus {
+	background-color: #9ee6f8;
+	color: #000;
+	text-decoration: none;
+  }

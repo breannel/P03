@@ -1,11 +1,26 @@
 #about-us {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/michaelsThumb.png") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	flex: 100%;
 	margin: -2%;
+}
+
+.michaels {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/michaelsThumb.png") no-repeat center center fixed; 
+}
+
+.vice {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/viceThumb.png") no-repeat center center fixed; 
+}
+
+.dossier {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/dossierThumb.png") no-repeat center center fixed; 
+}
+
+.about {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hongKongCafe_eastPender.jpg") no-repeat center center fixed; 
 }
 
 #about-us div {
@@ -15,21 +30,22 @@
 }
 
 #about-us h2 {
-	font-size: 2em;
+	font-size: 2.4em;
 	padding: 1rem 2rem;
 	color:  #f6f2ec;
 }
 
 #about-us p {
 	padding: 0 2rem;
+	font-size: 1.3em;
 	color: white;
 }
 
-.flex-main section {
+.flex-main section, iframe {
 	margin: 4% 8%;
 }
 
-.staff-portrait p, h3, h4 {
+.staff-portrait p, .staff-portrait h3, .staff-portrait h4 {
 	margin: auto 19%;
 	margin-top: 1em;
 }
@@ -39,9 +55,36 @@
 }
 
 section h3 {
-	font-size: 1.15em;
 	margin-top: 2em;
-}
+} 
+
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 100%;
+  }
+
+  .child {
+	flex-basis: 50%;
+  }
+
+  .child p, .child h4, .child ul {
+	margin: 0 19%;
+	color: #333;
+	font-size: 1em;
+	font-weight: 400;
+  }
+
+  .child em {
+	font-weight: 700;
+	font-style: normal;
+
+  }
+
+  .child h3{
+	  margin-top: 1em;
+  }
 
 @media (max-width: 50rem) {
 	
@@ -49,6 +92,10 @@ section h3 {
 		margin: 0 auto;
 		padding: 10% 0;
 		width: 80%;
+	}
+
+	h3 {
+		font-size: 1.6em;
 	}
 	
 	.flex-main section {
@@ -61,4 +108,14 @@ section h3 {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+
+	.staff-portrait p, .staff-portrait h3, .staff-portrait h4, .staff-portrait ul, .staff-portrait li {
+		margin-left: 0;
+		margin-right: 0;
+		padding-bottom: 0; 
+	}
+
+	.child {
+		flex-basis: 100%;
+	  }
 }

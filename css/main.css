@@ -11,10 +11,6 @@ BASIC ELEMENTS
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-	/* background-color: #f6f2ec; */
-}
-
 .nav-container {
   z-index: 999;
 }
@@ -83,15 +79,13 @@ html {
 /* Styling for the navigation button */
 
 .button-cancel {
+  border-style: none;
   display: inline-block;
   color: #E34F0C;
   font-size: 0.9em;
   font-weight: bold;
-  background-color: rgba(227, 79, 12, 0.1);
-  border-radius: 0.1em;
+  background-color: rgba(227, 79, 12, 0.2);
   text-decoration: none;
-  border-radius: 2em;
-  border-bottom: 0.15em solid #E34F0C;
   margin: 0 1em 0.1em 0;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
@@ -102,19 +96,19 @@ html {
 
 .button-cancel:hover, .button-cancel:focus {
   color: #f6f2ec;
+  border-style: none;
   background-color: rgb(227, 79, 12);
 }
 
 .button-submit {
+  border-style: none;
   display: inline-block;
   color: #171B0A;
   font-size: 0.9em;
   font-weight: bold;
-  background-color: rgba(19, 19, 19, 0.1);
-  border-radius: 2em;
+  background-color: rgba(19, 19, 19, 0.2);
   text-decoration: none;
   margin: 0 1em 0.1em 0;
-  border-bottom: 0.15em solid #171B0A;
   padding: 0.5em 3em;
   -webkit-transition: border-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
@@ -124,6 +118,7 @@ html {
 
 .button-submit:hover, .button-submit:focus {
   color: #f6f2ec;
+  border-style: none;
   background-color: #171B0A;
 }
 
@@ -241,17 +236,6 @@ ul ol {
   padding: 0 1em;
 }
 
-a {
-  color: rgb(190, 49, 21);
-  transition: color 0.5s;
-  text-decoration: none;
-}
-
-a:active, a:hover, a:focus {
-  color: rgb(23, 101, 179);
-  text-decoration: none;
-}
-
 h1 {
   font-size: 2.2em;
   font-family: 'karmina', sans-serif;
@@ -266,13 +250,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   margin-bottom: 1em;
-}
-
-section h2 {
   color:  #222;
-  font-family: 'karmina', sans-serif;
-  font-style: normal;
-  font-weight: 700;
 }
 
 .styleguide section{
@@ -301,10 +279,28 @@ section h2 {
 } */
 
 h3 {
-  color: #222;
-  font-size: 1em;
+  font-family: 'karmina', sans-serif;
+  font-style: normal;
   font-weight: 700;
+  color: #222;
+  font-size: 2.4em;
   padding-bottom: 0.5em;
+}
+
+.michaelsPage h3{
+  color: rgb(255, 93, 128);
+}
+
+.vmfPage h3{
+  color: rgb(38, 168, 255);
+}
+
+.dossierPage h3{
+  color: rgb(129, 11, 184);
+}
+
+.vicePage h3{
+  color: #ffd414;
 }
 
 h4 {
@@ -331,20 +327,31 @@ TYPOGRAPHY end ------------------
 /* PROJECT SECTION start*/
 
 #hero-section {
-  margin-top: 2.5em;
-  margin-bottom: 2em;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+#hero-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 0em;
+}
+
+
+#hero-section h4 {
+  margin-top:0.8em;
 }
 
 .projects {
 	display: flex;
   flex-wrap: wrap;
+  margin-bottom: 3em;
 }
 
 .project-card {
   display: flex;
-  padding-bottom: 1em;
   flex-direction: column;
 
+  margin: 1.5%;
 	flex: 1 35%;
 
 	background-color: rgb(253, 252, 251);
@@ -356,8 +363,16 @@ TYPOGRAPHY end ------------------
 }
 
 .project-info {
+  margin: auto;
+  margin-bottom: 1em;
   text-align: center;
 }
+
+.projects h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
 
 /* PROJECT SECTION end*/
 
@@ -389,9 +404,34 @@ section code {
   border-color: #333;
 }
 
-figure img {
-  width: 100%
+/* CITATION START */
+/* Image hover effect from: https://codepen.io/nxworld/pen/ZYNOBZ by Naoya */
+
+/* .project-image {
+  background: #000;
+} */
+
+.project-image img {
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.project-image:hover img, .project-image:active img, .project-image:focus img{
+  /* opacity: 0.95; */
+  border-style: none;
+
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+/* CITATION END */
 
 figcaption {
   font-style: italic;
@@ -479,7 +519,7 @@ MEDIA QUERY start ------------
   h1 {font-size: 2.0em;}
 
 	.project-card {
-		flex: 1 21%;
+		flex: 1 46%;
   }
   
   section:first-child  {
@@ -488,7 +528,7 @@ MEDIA QUERY start ------------
 
 	.projects .project-card:first-child,
 	.projects .project-card:nth-child(2) {
-		flex: 2 46%;
+		flex: 2 70%;
 	}
 
 }
@@ -500,25 +540,26 @@ MEDIA QUERY start ------------
 	.projects {
 		padding: 0;
   }
+
+  #hero-section {
+  padding: 2rem;
+}
   
   section:first-child  {
     margin-top: 1em;
   }
 
 	.project-card {
-		flex: 1 46%;
-	}
-
-}
-
-@media ( max-width: 480px ) {
-
-	.sort {
-		align-self: flex-start;
+		flex: 1 70%;
   }
   
-  .project-filter {
-    display: block;
+  #hero-section h2 {
+    font-size: 1.9em;
+  }
+
+  #hero-section {
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 
 }

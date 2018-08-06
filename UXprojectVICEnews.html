@@ -9,10 +9,13 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/yir6zgh.css">
     <link rel="stylesheet" href="https://use.typekit.net/pnc6bie.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
 
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/general-flex.css" rel="stylesheet">
+    <link href="css/page-link-color.css" rel="stylesheet">
     <link href="css/header-footer.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -21,22 +24,24 @@
 
 </head>
 
-<body>
+<body class="vicePage">
 
-    <header class="sticky-nav">
+    <header class="sticky-nav vicePageLogo">
 
         <div id="sticky-nav-containter">
 
             <div class="nav-logo">
-                <h2>Breanne Lewis</h2>
+                <a href="index.html">
+                    <h2>Breanne Lewis</h2>
+                </a>
             </div>
 
             <ul>
                 <li>
-                    <a href="https://breannelewis.persona.co/">PROJECTS</a>
+                    <a href="index.html">PROJECTS</a>
                 </li>
                 <li>
-                    <a href="https://breannelewis.persona.co/MyFace">ABOUT</a>
+                    <a href="about.html">ABOUT</a>
                 </li>
             </ul>
 
@@ -60,49 +65,139 @@
 
     </div>-->
 
-    <div class="flex-main">
+    <div class="flex-main vicePage">
 
-		<section id="about-us">
-			<div>
-				<h2>Overview</h2>
-				<p>Jonny established the shop in 2009 and wanted to do away with the stereotype of dimly 
-					lit comic stores for a friendlier, wide open space where everyone could feel at home.
-				</p>
-			</div>
-		</section>
+        <section id="about-us" class="vice">
+            <div>
+                <h2>Overview</h2>
+                <p>For a senior UX design class, I selected, researched, and designed a digital solution and pitch for VICE
+                    News. To address a clear business problem, my team and i designed a chatbot that delivers first-hand,
+                    journalistic news through a chatbot interface.
+                </p>
+            </div>
+        </section>
 
-		<section class="staff-portrait">
-			<div>
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Jonny outside at a park holding his then 4 year daughter, Chloe" />
-				<h3>Jonny Botsch</h3>
-				<p>Your go to guy for graphic novels, omnibuses, trade paperbacks, and more. Jonny is also a fan of cult favourite films
-					and fan cuts.
-				</p>
-			</div>
-		</section>
+        <section class="staff-portrait">
+            <div class="parent">
+                <div class="child">
+                    <h3>Roles</h3>
+                    <ul>
+                        <li>
+                            <em>My Role:</em> Copywriting, Brand Strategy, QA</li>
+                        <li>
+                            <a href="http://www.veronicawu.com/">Veronica Wu:</a>Visual Lead, Slides</li>
+                        <li>
+                            <em>
+                                <a href="https://salathielwells.com/">Salathiel Wells:</a>
+                            </em>Prototyping Lead, QA</li>
+                        <li>
+                            <em>Robin George:</em>Video Editing, Content Gathering</li>
+                        <li>
+                            <em>
+                                <a href="http://charlenehew.com">Charlene Hew:</a>
+                            </em>Video Editing Lead, Sound</li>
+                    </ul>
 
-		<section class="staff-portrait">
-			<div>
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers" />
-				<h3>Andrew Barrow</h3>
-				<p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's
-					got you covered.
-				</p>
-			</div>
-		</section>
+                    <!-- <h3>Tools</h3>
+                    <h4>Illustrator, After Effects, Keynote, Invision, Principle, Premier Pro
+                    </h4> -->
+                </div>
+                <div class="child">
+                    <h3>Project Length</h3>
+                    <h4>4 Weeks
+                    </h4>
+                    <h3>Deliverables</h3>
 
-		<section class="staff-portrait">
-			<div>
-				
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Tony nonchalantly answering the phone in a pikachu kigurumi" />
-				
-				<h3>Tony Velocity</h3>
-				<p>For custom kits and weird side projects, Tony is the guy to talk to. He loves
-					grungy paint jobs and making frakenstein bots from spare parts.
-				</p>
-			</div>
-		</section>
-	</div>
+                    <ul>
+                        <li>
+                            <a href="http://www.sfu.ca/~breannel/portfolio/viceWeek4.pdf">Final Presentation PDF</a>
+                        </li>
+                        <li>
+                            <a href="https://vimeo.com/249865204">Final Prototype Video</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+            <div>
+                <img class="staff-photo" src="img/vice/finalDesign.png" alt="A picture of Jonny outside at a park holding his then 4 year daughter, Chloe"
+                />
+                <h3>Design Overview</h3>
+                <p>Your go to guy for graphic novels, omnibuses, trade paperbacks, and more. Jonny is also a fan of cult favourite
+                    films and fan cuts.
+                </p>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+            <div>
+                <img class="staff-photo" src="img/vice/finalDesignExplicitContent.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                />
+                <h3>Brand and Tone</h3>
+                <p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's got
+                    you covered.
+                </p>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+                <div>
+                    <img class="staff-photo" src="img/vice/initialDesign-timeline.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                    />
+                    <h3>First Prototype</h3>
+                    <p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's got
+                        you covered.
+                    </p>
+                </div>
+            </section>
+
+        <section class="staff-portrait">
+            <div>
+
+                <img class="staff-photo" src="img/viceThumb.png" alt="A picture of Tony nonchalantly answering the phone in a pikachu kigurumi"
+                />
+
+                <h3>Revised Prototype</h3>
+                <p>For custom kits and weird side projects, Tony is the guy to talk to. He loves grungy paint jobs and making
+                    frakenstein bots from spare parts.
+                </p>
+            </div>
+
+            <p></p>
+
+            <div style="padding:56.16% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/249865204?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;margin:0;"
+                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+        </section>
+
+        <section class="staff-portrait">
+                    <h3>Value Proposition</h3>
+                    <p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's got
+                        you covered.
+                    </p>
+            </section>
+
+            <section class="staff-portrait">
+                    <div>
+                        <img class="staff-photo" src="img/viceThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                        />
+                        <img class="staff-photo" src="img/viceThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                        />
+                        <img class="staff-photo" src="img/viceThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                        />
+                        <h3>Feasibility</h3>
+                        <p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's got
+                            you covered.
+                        </p>
+                    </div>
+                </section>
+    </div>
 
     <footer>
         <div id="footer-container">
@@ -113,6 +208,31 @@
                 <a href="https://github.com/breannel/portfolio.git">GITLAB DIRECTORY</a>
 
             </div>
+
+            <div id="footer-contacts">
+
+                <p>
+                    <span>
+                        <i class="fas fa-mobile-alt fa-fw fa-1x"></i>
+                    </span>
+                    <span>+1 778.987.6995</span>
+                </p>
+                <p>
+                    <span>
+                        <i class="far fa-envelope fa-fw fa-1x"></i>
+                    </span>
+                    <span>breanne.r.lewis@gmail.com</span>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/breannerlewis">
+                        <span>
+                            <i class="fab fa-linkedin fa-fw fa-1x"></i>
+                        </span>
+                        <span>Find me on LinkedIn</span>
+                    </a>
+                </p>
+            </div>
+        </div>
 
     </footer>
 

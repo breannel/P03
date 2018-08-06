@@ -13,6 +13,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/general-flex.css" rel="stylesheet">
+    <link href="css/page-link-color.css" rel="stylesheet">
     <link href="css/header-footer.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -21,29 +22,29 @@
 
 </head>
 
-<body>
+<body class="dossierPage">
 
-    <header class="sticky-nav">
+    <header class="sticky-nav dossierPageLogo">
 
         <div id="sticky-nav-containter">
 
             <div class="nav-logo">
-                <h2>Breanne Lewis</h2>
+                <a href="index.html">
+                    <h2>Breanne Lewis</h2>
+                </a>
             </div>
 
             <ul>
                 <li>
-                    <a href="https://breannelewis.persona.co/">PROJECTS</a>
+                    <a href="index.html">PROJECTS</a>
                 </li>
                 <li>
-                    <a href="https://breannelewis.persona.co/MyFace">ABOUT</a>
+                    <a href="about.html">ABOUT</a>
                 </li>
             </ul>
 
             <!--maybe hide this h2 with CSS-->
-            <h1>UX Project: Michaels Crafting Studio</h1>
-            <!-- <p>Vancouver's Secret Stash.
-					</p> -->
+            <h1>Internship with Dossier Creative inc.</h1>
 
         </div>
     </header>
@@ -60,49 +61,94 @@
 
     </div>-->
 
-    <div class="flex-main">
+    <div class="flex-main dossierPage">
 
-		<section id="about-us">
-			<div>
-				<h2>Overview</h2>
-				<p>Jonny established the shop in 2009 and wanted to do away with the stereotype of dimly 
-					lit comic stores for a friendlier, wide open space where everyone could feel at home.
-				</p>
-			</div>
-		</section>
+        <section id="about-us" class="dossier">
+            <div>
+                <h2>Overview</h2>
+                <p>Jonny established the shop in 2009 and wanted to do away with the stereotype of dimly lit comic stores for
+                    a friendlier, wide open space where everyone could feel at home.
+                </p>
+            </div>
+        </section>
 
-		<section class="staff-portrait">
-			<div>
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Jonny outside at a park holding his then 4 year daughter, Chloe" />
-				<h3>Jonny Botsch</h3>
-				<p>Your go to guy for graphic novels, omnibuses, trade paperbacks, and more. Jonny is also a fan of cult favourite films
-					and fan cuts.
-				</p>
-			</div>
-		</section>
+        <section class="staff-portrait">
+            <div class="parent">
+                <div class="child">
+                    <h3>Roles</h3>
+                    <ul>
+                        <li>
+                            <em>My Role:</em> Design Intern</li>
+                        <li>
+                            <a href="https://www.annettecheung.com/">Annette Cheung:</a>Design Intern</li>
+                        <li>
+                            <em>
+                                <a href="https://booruce.com/">Bruce Beh:</a>
+                            </em>Business and Design Intern</li>
+                        <li>
+                            <em>
+                                <a href="http://josephcoombes.com/">Joseph Coombes:</a>
+                            </em>Communications and Design Intern</li>
+                    </ul>
 
-		<section class="staff-portrait">
-			<div>
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers" />
-				<h3>Andrew Barrow</h3>
-				<p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's
-					got you covered.
-				</p>
-			</div>
-		</section>
+                    <!-- <h3>Tools and Skills</h3>
+                    <h4>Illustrator, Indesign, Design Guidelines, Condensed SPRINTs, RACI Charts
+                    </h4> -->
+                </div>
+                <div class="child">
+                    <h3>Internship</h3>
+                    <h4>4 months
+                    </h4>
+                    <h3>Deliverables</h3>
 
-		<section class="staff-portrait">
-			<div>
-				
-				<img class="staff-photo" src="img/michaelsThumb.png" alt="A picture of Tony nonchalantly answering the phone in a pikachu kigurumi" />
-				
-				<h3>Tony Velocity</h3>
-				<p>For custom kits and weird side projects, Tony is the guy to talk to. He loves
-					grungy paint jobs and making frakenstein bots from spare parts.
-				</p>
-			</div>
-		</section>
-	</div>
+                    <ul>
+                        <li>
+                            <a href="http://railyardlab.com/work/exchange/">Exchange Rebranding</a>
+                        </li>
+                        <li>
+                            <a href="http://railyardlab.com/work/the-lily-projects/">Lily Projects Branding</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+            <div>
+                <img class="staff-photo" src="img/dossierThumb.png" alt="A picture of Jonny outside at a park holding his then 4 year daughter, Chloe"
+                />
+                <h3>Jonny Botsch</h3>
+                <p>Your go to guy for graphic novels, omnibuses, trade paperbacks, and more. Jonny is also a fan of cult favourite
+                    films and fan cuts.
+                </p>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+            <div>
+                <img class="staff-photo" src="img/dossierThumb.png" alt="A picture of Andrew smiling at the counter of the shop serving a long line of customers"
+                />
+                <h3>Andrew Barrow</h3>
+                <p>You don't want to know how many Ironmen this boy owns. From Transformers to japanese imports, Andrew's got
+                    you covered.
+                </p>
+            </div>
+        </section>
+
+        <section class="staff-portrait">
+            <div>
+
+                <img class="staff-photo" src="img/dossierThumb.png" alt="A picture of Tony nonchalantly answering the phone in a pikachu kigurumi"
+                />
+
+                <h3>Tony Velocity</h3>
+                <p>For custom kits and weird side projects, Tony is the guy to talk to. He loves grungy paint jobs and making
+                    frakenstein bots from spare parts.
+                </p>
+            </div>
+        </section>
+    </div>
 
     <footer>
         <div id="footer-container">
@@ -113,6 +159,31 @@
                 <a href="https://github.com/breannel/portfolio.git">GITLAB DIRECTORY</a>
 
             </div>
+
+            <div id="footer-contacts">
+                <p>
+                    <span>
+                        <i class="fas fa-mobile-alt fa-fw fa-1x"></i>
+                    </span>
+                    <span>+1 778.987.6995</span>
+                </p>
+                <p>
+                    <span>
+                        <i class="far fa-envelope fa-fw fa-1x"></i>
+                    </span>
+                    <span>breanne.r.lewis@gmail.com</span>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/breannerlewis">
+                        <span>
+                            <i class="fab fa-linkedin fa-fw fa-1x"></i>
+                        </span>
+                        <span>Find me on LinkedIn</span>
+                    </a>
+                </p>
+            </div>
+
+        </div>
 
     </footer>
 
