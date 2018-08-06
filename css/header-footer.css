@@ -23,8 +23,8 @@
 }
 
 #sticky-nav-containter h2, .sticky-nav-containter h2 {
-	font-size: 4em;
-	line-height: 0em;
+	font-size: 3.3em;
+	line-height: 0.2em;
 	flex: 1;
 	font-family: voltage, sans-serif;
 	font-style: normal;
@@ -32,15 +32,6 @@
 	margin-bottom: 1em;
 	margin-left: 0.2em;
 	color:  #f6fdff ;
-  }
-
-a {
-	text-decoration: none;
-	transition: color 0.5s;
-  }
-
-  a:hover, a:focus, a:active {
-	border-style: solid none; 
   }
 
   .defaultPage {  
@@ -55,17 +46,6 @@ a {
 	text-shadow: 0 0 40px #ffef15 ;
   }
 
- section a {
-	color: #ffd92e;
-	transition: color 0.5s;
-	font-weight: 700;
-  }
-  
- section a:active, section a:hover, section a:focus {
-	color: #000;
-	text-decoration: none;
-  }
-
   .michaelsPageLogo h2 {
 	color:  #fff6f8 ;
   
@@ -76,17 +56,6 @@ a {
 	text-shadow: 0 0 80px #ff6b90 ;
 	text-shadow: 0 0 70px #ff6b90 ;
 	text-shadow: 0 0 40px #ff6b90;
-  }
-
-  .michaelsPage section a, .michaelsPage section em {
-	color: #ff6b90;
-	font-weight: 700;
-  }
-  
-  .michaelsPage section a:active, .michaelsPage section a:hover, .michaelsPage section a:focus {
-	background-color: #ffa2b9;
-	color: #000;
-	text-decoration: none;
   }
 
   .vicePageLogo h2 {
@@ -101,12 +70,6 @@ a {
 	text-shadow: 0 0 40px #ffef15 ;
   }
 
-  section a:active, section a:hover, section a:focus {
-	background-color: #fff89b;
-	color: #000;
-	text-decoration: none;
-  }
-
   .dossierPageLogo h2 {
 	color:  #8235ff ;
   
@@ -119,17 +82,6 @@ a {
 	text-shadow: 0 0 40px #8235ff ;
   }
 
-  .dossierPage section a, .dossierPage section em {
-	color: #8235ff;
-	font-weight: 700;
-  }
-  
-   .dossierPage section a:active,  .dossierPage section a:hover, .dossierPage section a:focus {
-	background-color: #c9a7ff;
-	color: #000;
-	text-decoration: none;
-  }
-
   .vmfPage h2 {
 	color:  #f6fdff ;
   
@@ -140,19 +92,7 @@ a {
 	text-shadow: 0 0 80px #1fd2ff ;
 	text-shadow: 0 0 70px #1fd2ff;
 	text-shadow: 0 0 40px #1fd2ff ;
-  }
-
-  .vmfPage section a, .vmfPage section em {
-	color: #0ab4df;
-	font-weight: 700;
-  }
-  
-  .vmfPage section a:active, .vmfPage section a:hover, .vmfPage section a:focus {
-	background-color: #9ee6f8;
-	color: #000;
-	text-decoration: none;
-  }
-  
+  }  
 
 #sticky-nav-containter img, .sticky-nav-containter img{
 	max-height: 110px;
@@ -216,16 +156,10 @@ a {
 }
 
 footer {
-	/* color: #f6f2ec; */
-	/* background-color: #101010; */
+	background-color: #101010;
 	padding: 2rem;
+	color:  #fff8f5 ;
 }
-
-/* footer h2{
-	color: rgb(174, 50, 34);
-	font-family: 'Lato';
-	font-weight: lighter;
-} */
 
 #footer-container {
 	display: flex;
@@ -245,9 +179,14 @@ footer {
 	text-decoration: none;
 	text-align: left;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	padding: 1em;
+	font-weight: 700;
+	margin:0.5em;
 	text-transform: uppercase;
+	color: #fff8f5 ;
+}
+
+#footer-contacts a:hover, #footer-contacts a:active, #footer-contacts a:focus, #footer-contacts a:visited {
+	color: #fff8f5;
 }
 
 #footer-contacts {
@@ -255,6 +194,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	padding: 2rem 0 0.5rem 0;
+	color: #fff;
 }
 
 #footer-contacts p {
@@ -274,8 +214,8 @@ footer {
 	cursor: pointer;
 }
 
-.fa-facebook-square, .fa-instagram{
-	color: #000000;
+.fa-linkedin {
+	color: #f6f2ec;
 }
 
 /********   FOOTER END   ********/

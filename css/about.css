@@ -37,6 +37,7 @@
 
 #about-us p {
 	padding: 0 2rem;
+	font-size: 1.3em;
 	color: white;
 }
 
@@ -44,7 +45,7 @@
 	margin: 4% 8%;
 }
 
-.staff-portrait p, h3, h4 {
+.staff-portrait p, .staff-portrait h3, .staff-portrait h4 {
 	margin: auto 19%;
 	margin-top: 1em;
 }
@@ -92,6 +93,10 @@ section h3 {
 		padding: 10% 0;
 		width: 80%;
 	}
+
+	h3 {
+		font-size: 1.6em;
+	}
 	
 	.flex-main section {
 		margin: 5%;
@@ -102,6 +107,12 @@ section h3 {
 		margin-right: 0;
 		padding-left: 1rem;
 		padding-right: 1rem;
+	}
+
+	.staff-portrait p, .staff-portrait h3, .staff-portrait h4, .staff-portrait ul, .staff-portrait li {
+		margin-left: 0;
+		margin-right: 0;
+		padding-bottom: 0; 
 	}
 
 	.child {
