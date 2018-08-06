@@ -1,4 +1,4 @@
-#about-us {
+#project-hero-section {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -23,19 +23,29 @@
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hongKongCafe_eastPender.jpg") no-repeat center center fixed; 
 }
 
-#about-us div {
+#project-hero-section div {
 	margin-left: 10%;
 	padding: 10% 0;
 	width: 50%;
 }
 
-#about-us h2 {
+#project-hero-section h1 {
 	font-size: 2.4em;
-	padding: 1rem 2rem;
+	padding: 1rem 2rem 0 2rem;
 	color:  #f6f2ec;
+	margin-bottom: 0;
 }
 
-#about-us p {
+#project-hero-section h2 {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	padding: 0 0 2rem 2rem;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 0.5rem;
+}
+
+#project-hero-section p {
 	padding: 0 2rem;
 	font-size: 1.3em;
 	color: white;
@@ -45,21 +55,22 @@
 	margin: 4% 8%;
 }
 
-.staff-portrait p, .staff-portrait h3, .staff-portrait h4 {
+.body-container p, .body-container h2, .body-container h2, .body-container h3 {
 	margin: auto 19%;
 	margin-top: 1em;
 }
 
-.staff-portrait div img {
+.body-container div img {
 	width: 95%;
 	margin: auto 2.5%;
 }
 
-.half div img {
-	width: 40%;
+.self-portrait div img {
+	width: 60%;
+	margin: auto 20%;
 }
 
-section h3 {
+section h2 {
 	margin-top: 2em;
 } 
 
@@ -74,7 +85,7 @@ section h3 {
 	flex-basis: 50%;
   }
 
-  .child p, .child h4, .child ul {
+  .child p, .child h3, .child ul {
 	margin: 0 19%;
 	color: #333;
 	font-size: 1.1em;
@@ -87,19 +98,19 @@ section h3 {
 
   }
 
-  .child h3{
+  .child h2{
 	  margin-top: 1em;
   }
 
 @media (max-width: 50rem) {
 	
-	#about-us div {
+	#project-hero-section div {
 		margin: 0 auto;
 		padding: 10% 0;
 		width: 80%;
 	}
 
-	h3 {
+	h2 {
 		font-size: 1.6em;
 	}
 	
@@ -107,14 +118,14 @@ section h3 {
 		margin: 5%;
 	}
 	
-	.staff-portrait {
+	.body-container {
 		margin-left: 0;
 		margin-right: 0;
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
 
-	.staff-portrait p, .staff-portrait h3, .staff-portrait h4, .staff-portrait ul, .staff-portrait li {
+	.body-container p, .body-container h2, .body-container h3, .body-container ul, .body-container li {
 		margin-left: 0;
 		margin-right: 0;
 		padding-bottom: 0; 

@@ -244,7 +244,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2.4em;
   flex: 1;
   font-family: 'karmina', sans-serif;
   font-style: normal;
@@ -269,16 +269,7 @@ h2 {
   padding-top: 1em;
 }
 
-/* .example {
-  position: relative;
-  background-color: #222;
-}
-
-.example h2 {
-  color: white;
-} */
-
-h3 {
+.body-container h2 {
   font-family: 'karmina', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -287,23 +278,23 @@ h3 {
   padding-bottom: 0.5em;
 }
 
-.michaelsPage h3{
+.michaelsPage h2{
   color: rgb(255, 93, 128);
 }
 
-.vmfPage h3{
+.vmfPage h2{
   color: rgb(38, 168, 255);
 }
 
-.dossierPage h3{
+.dossierPage h2{
   color: rgb(129, 11, 184);
 }
 
-.vicePage h3{
+.vicePage h2{
   color: #ffd414;
 }
 
-h4 {
+h2 {
   color: #333;
   font-size: 1.2em;
   font-weight: 700;
@@ -343,7 +334,7 @@ TYPOGRAPHY end ------------------
 }
 
 
-#hero-section h4 {
+#hero-section h3 {
   margin-top:0.8em;
 }
 
@@ -374,7 +365,7 @@ TYPOGRAPHY end ------------------
   text-align: center;
 }
 
-.projects h3 {
+.projects h2 {
   font-family: 'Lato', sans-serif;
   font-size: 1.1em;
 }
