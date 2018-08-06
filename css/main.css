@@ -334,6 +334,7 @@ TYPOGRAPHY end ------------------
 .projects {
 	display: flex;
   flex-wrap: wrap;
+  margin-bottom:3em;
 }
 
 .project-card {
@@ -393,8 +394,28 @@ section code {
   border-color: #333;
 }
 
-figure img {
-  width: 100%
+/* .project-image {
+  background: #000;
+} */
+
+.project-image img {
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-image:hover img, .project-image:active img, .project-image:focus img{
+  /* opacity: 0.95; */
+  border-style: none;
+
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 figcaption {
