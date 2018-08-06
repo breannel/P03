@@ -327,21 +327,31 @@ TYPOGRAPHY end ------------------
 /* PROJECT SECTION start*/
 
 #hero-section {
-  margin-top: 2.5em;
-  margin-bottom: 2em;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+#hero-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 0em;
+}
+
+
+#hero-section h4 {
+  margin-top:0.8em;
 }
 
 .projects {
 	display: flex;
   flex-wrap: wrap;
-  margin-bottom:3em;
+  margin-bottom: 3em;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
 
-  margin: 1%;
+  margin: 1.5%;
 	flex: 1 35%;
 
 	background-color: rgb(253, 252, 251);
@@ -394,6 +404,9 @@ section code {
   border-color: #333;
 }
 
+/* CITATION START */
+/* Image hover effect from: https://codepen.io/nxworld/pen/ZYNOBZ by Naoya */
+
 /* .project-image {
   background: #000;
 } */
@@ -417,6 +430,8 @@ section code {
   -webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
+
+/* CITATION END */
 
 figcaption {
   font-style: italic;
@@ -525,6 +540,10 @@ MEDIA QUERY start ------------
 	.projects {
 		padding: 0;
   }
+
+  #hero-section {
+  padding: 2rem;
+}
   
   section:first-child  {
     margin-top: 1em;
@@ -532,7 +551,16 @@ MEDIA QUERY start ------------
 
 	.project-card {
 		flex: 1 70%;
-	}
+  }
+  
+  #hero-section h2 {
+    font-size: 1.9em;
+  }
+
+  #hero-section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
 
 }
 
