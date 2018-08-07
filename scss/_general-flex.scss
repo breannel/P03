@@ -1,0 +1,20 @@
+.flex-main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-main section {
+	flex: 1 1 auto;
+	margin: 0 14%;
+}
+
+@media(max-width: 750px) {
+	.flex-main section {
+		margin: 0 1%;
+	}
+
+	#hero-section {
+		margin-left: 2%;
+		margin-right: 2%; 
+	}
+}
