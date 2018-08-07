@@ -1,0 +1,9 @@
+@import 'normalize'; //imports the content from normalize.scss here, and compiles it in the combined.css file
+@import 'general-flex'; //imports the content from general-flex.scss here, and compiles it in the combined.css file
+@import 'main'; //imports the content from main.scss here, and compiles it in the combined.css file
+@import 'page-link-color'; //imports the content from page-link.scss here, and compiles it in the combined.css file
+@import 'colour-palette'; //imports the content from colour-palette.scss here, and compiles it in the combined.css file
+@import 'header-footer'; //imports the content from header-footer.scss here, and compiles it in the combined.css file
+@import 'project'; //imports the content from project.scss here, and compiles it in the combined.css file
+
+//http://sass-lang.com/guide#topic-5  these files don't need "@import 'normalize.scss' because sass is "smart enough" to know what the file types are
