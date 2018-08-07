@@ -26,7 +26,7 @@
 #about-us div {
 	margin-left: 10%;
 	padding: 10% 0;
-	width: 40%;
+	width: 50%;
 }
 
 #about-us h2 {
@@ -51,7 +51,12 @@
 }
 
 .staff-portrait div img {
-	width: 100%;
+	width: 95%;
+	margin: auto 2.5%;
+}
+
+.half div img {
+	width: 40%;
 }
 
 section h3 {

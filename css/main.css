@@ -305,13 +305,14 @@ h3 {
 
 h4 {
   color: #333;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 700;
   margin-bottom: 0.2em;
 }
 
 p {
   font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
   padding: 0.2em 0 1em 0;
   margin-top: 0em;
 }
