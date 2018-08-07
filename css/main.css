@@ -462,7 +462,7 @@ nav {
   flex-wrap: wrap;
   align-items: baseline;
   z-index: 800;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #fa335e;
 }
 
